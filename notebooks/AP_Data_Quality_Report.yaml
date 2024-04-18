@@ -1,0 +1,10 @@
+title: AP Data Quality Report
+description: Data Quality Metrics Computed by AP
+authors:
+  - name: Eric Bellm
+    slack: ebellm
+parameters:
+  date:
+    type: string
+    description: Night (YYYY-MM-DD)
+    default: "2024-02-01"
