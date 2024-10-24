@@ -1,0 +1,14 @@
+title: AP Data Quality Report
+description: Performance Metrics Computed by AP
+authors:
+  - name: Hsin-Fang Chiang
+    slack: hsinfang
+parameters:
+  date:
+    type: string
+    description: Night (YYYY-MM-DD)
+    default: "2024-09-04"
+  instrument:
+    type: string
+    description: Instrument ("LATISS", "LSSTComCamSim")
+    default: "LATISS"
