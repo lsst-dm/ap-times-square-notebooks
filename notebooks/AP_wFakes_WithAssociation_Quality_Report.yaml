@@ -1,0 +1,18 @@
+title: AP With Fakes With-Association Quality Report
+description: Quality Metrics by AP With Fakes (With-Association)
+authors:
+  - name: Bruno Sanchez
+    slack: BrunoSanchez
+parameters:
+  repo:
+    type: string
+    description: Butler Repository name at USDF
+    default: "/repo/main"
+  collection:
+    type: string
+    description: Collection run name
+    default: "u/sullii/DM-46495-Fakes"
+  instrument:
+    type: string
+    description: Instrument ("LSSTComCam", "LSSTComCamSim", "HSC", "DECam")
+    default: "LSSTComCam"
