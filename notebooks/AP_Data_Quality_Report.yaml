@@ -4,10 +4,11 @@ authors:
   - name: Eric Bellm
     slack: ebellm
 parameters:
-  date:
+  dayobs_date:
     type: string
+    format: dayobs-date
     description: Night (YYYY-MM-DD)
-    default: "2025-09-21"
+    dynamic_default: "yesterday"
   instrument:
     type: string
     description: Instrument ("LSSTCam", "LSSTComCam", "LATISS", "LSSTComCamSim")
